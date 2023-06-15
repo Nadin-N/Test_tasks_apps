@@ -1,0 +1,471 @@
+[
+	{
+		"question": "1. What is your marital status?",
+		"answers": [
+			{
+				"title": "Single",
+				"value": true,
+				"children": [
+					{
+						"question": "Are you engaged?",
+						"answers": [
+							{
+								"title": "Yes",
+								"value": true,
+								"children": [
+									{
+										"question": "How soon will the wedding take place?",
+										"answers": [
+											{
+												"title": "Less than 1 year",
+												"value": "less1year",
+												"children": null
+											},
+											{
+												"title": "More than 1 year",
+												"value": "more1year",
+												"children": null
+											},
+											{
+												"title": "More than 2 year",
+												"value": "more2year",
+												"children": null
+											}
+										]
+									}
+								]
+							},
+							{
+								"title": "No",
+								"value": false,
+								"children": [
+									{
+										"question": "Do you have a partner?",
+										"answers": [
+											{
+												"title": "Yes",
+												"value": true,
+												"children": [
+													{
+														"question": "How long have you been together with your partner?",
+														"answers": [
+															{
+																"title": "Less than 1 year",
+																"value": "less1year",
+																"children": null
+															},
+															{
+																"title": "More than 1 year",
+																"value": "more1year",
+																"children": null
+															},
+															{
+																"title": "More than 2 year",
+																"value": "more2year",
+																"children": null
+															}
+														]
+													},
+													{
+														"question": "Are you planning an engagement?",
+														"answers": [
+															{
+																"title": "Yes",
+																"value": true,
+																"children": null
+															},
+															{
+																"title": "No",
+																"value": false,
+																"children": null
+															}
+														]
+													}
+												]
+											},
+											{
+												"title": "No",
+												"value": false,
+												"children": [
+													{
+														"question": "How long have you been in a relationship?",
+														"answers": [
+															{
+																"title": "Less than 1 year",
+																"value": true,
+																"children": null
+															},
+															{
+																"title": "More than 1 year",
+																"value": false,
+																"children": null
+															},
+															{
+																"title": "More than 2 year",
+																"value": false,
+																"children": null
+															}
+														]
+													},
+													{
+														"question": "How many times have you been in serious relationships?",
+														"answers": [
+															{
+																"title": "Once",
+																"value": "once",
+																"children": null
+															},
+															{
+																"title": "More than once",
+																"value": "more",
+																"children": null
+															},
+															{
+																"title": "Never",
+																"value": "never",
+																"children": null
+															}
+														]
+													},
+													{
+														"question": "Do you feel pressure from your parents and others about your single status?",
+														"answers": [
+															{
+																"title": "Yes",
+																"value": true,
+																"children": null
+															},
+															{
+																"title": "No",
+																"value": false,
+																"children": null
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Married",
+				"value": false,
+				"children": [
+					{
+						"question": "How long have you been married?",
+						"answers": [
+							{
+								"title": "Less than 1 year",
+								"value": "less1year",
+								"children": null
+							},
+							{
+								"title": "More than 1 year",
+								"value": "more1year",
+								"children": null
+							},
+							{
+								"title": "More than 2 year",
+								"value": "more2year",
+								"children": null
+							}
+						]
+					},
+					{
+						"question": "How long were you engaged before getting married?",
+						"answers": [
+							{
+								"title": "Less than 1 year",
+								"value": "less1year",
+								"children": null
+							},
+							{
+								"title": "More than 1 year",
+								"value": "more1year",
+								"children": null
+							},
+							{
+								"title": "More than 2 year",
+								"value": "more2year",
+								"children": null
+							}
+						]
+					},
+					{
+						"question": "How long were you in a relationship before getting engaged?",
+						"answers": [
+							{
+								"title": "Less than 1 year",
+								"value": "less1year",
+								"children": null
+							},
+							{
+								"title": "More than 1 year",
+								"value": "more1year",
+								"children": null
+							},
+							{
+								"title": "More than 2 year",
+								"value": "more2year",
+								"children": null
+							}
+						]
+					},
+					{
+						"question": "Is this your first marriage?",
+						"answers": [
+							{
+								"title": "Yes",
+								"value": true,
+								"children": null
+							},
+							{
+								"title": "No",
+								"value": false,
+								"children": [
+									{
+										"question": "How many marriages have you had before this?",
+										"answers": [
+											{
+												"title": "One",
+												"value": "one",
+												"children": null
+											},
+											{
+												"title": "More than one",
+												"value": "more1",
+												"children": null
+											}
+										]
+									},
+									{
+										"question": "Who initiated the last divorce?",
+										"answers": [
+											{
+												"title": "Me",
+												"value": "me",
+												"children": null
+											},
+											{
+												"title": "Partner",
+												"value": "partner",
+												"children": null
+											},
+											{
+												"title": "Both",
+												"value": "both",
+												"children": null
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"question": "2. Do you have a pet?",
+		"answers": [
+			{
+				"title": "Yes",
+				"value": true,
+				"children": [
+					{
+						"question": "Is this a cat?",
+						"answers": [
+							{
+								"title": "Yes",
+								"value": "true",
+								"children": [
+									{
+										"question": "How old is it?",
+										"answers": [
+											{
+												"title": "1 year old",
+												"value": "1year",
+												"children": null
+											},
+
+											{
+												"title": "More than 1 year old",
+												"value": "more1year",
+												"children": null
+											}
+										]
+									},
+									{
+										"question": "Is it a purebred cat?",
+										"answers": [
+											{
+												"title": "Yes",
+												"value": "true",
+												"children": null
+											},
+											{
+												"title": "No",
+												"value": "false",
+												"children": null
+											}
+										]
+									},
+									{
+										"question": " Does it live outdoors or indoors?",
+										"answers": [
+											{
+												"title": "Outdoors",
+												"value": "outdoors",
+												"children": null
+											},
+											{
+												"title": "Indoors",
+												"value": "indoors",
+												"children": null
+											}
+										]
+									}
+								]
+							},
+
+							{
+								"title": "No",
+								"value": "false",
+								"children": null
+							}
+						]
+					},
+					{
+						"question": "Who had the initiative to get the pet?",
+						"answers": [
+							{
+								"title": "Me",
+								"value": "me",
+								"children": null
+							},
+							{
+								"title": "Partner",
+								"value": "partner",
+								"children": null
+							},
+							{
+								"title": "Children",
+								"value": "children",
+								"children": null
+							}
+						]
+					},
+					{
+						"question": "Who take care about the pet?",
+						"answers": [
+							{
+								"title": "Me",
+								"value": "me",
+								"children": null
+							},
+							{
+								"title": "Partner",
+								"value": "partner",
+								"children": null
+							},
+							{
+								"title": "Children",
+								"value": "children",
+								"children": null
+							}
+						]
+					},
+					{
+						"question": "Is this your first pet?",
+						"answers": [
+							{
+								"title": "Yes",
+								"value": "true",
+								"children": null
+							},
+							{
+								"title": "No",
+								"value": "false",
+								"children": null
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "No",
+				"value": false,
+				"children": [
+					{
+						"question": "Would you like to have a pet?",
+						"answers": [
+							{
+								"title": "Yes",
+								"value": true,
+								"children": [
+									{
+										"question": "What kind of animal would it be?",
+										"answers": [
+											{
+												"title": "Cat",
+												"value": "cat",
+												"children": null
+											},
+											{
+												"title": "Dog",
+												"value": "dog",
+												"children": null
+											},
+											{
+												"title": "Other",
+												"value": "other",
+												"children": null
+											}
+										]
+									}
+								]
+							},
+							{
+								"title": "No",
+								"value": false,
+								"children": null
+							},
+							{
+								"title": "I can't",
+								"value": false,
+								"children": [
+									{
+										"question": "Why?",
+										"answers": [
+											{
+												"title": "I'm allergic",
+												"value": "allergic",
+												"children": null
+											},
+											{
+												"title": "I'm too busy",
+												"value": "conditions",
+												"children": null
+											},
+											{
+												"title": "My family members are against it.",
+												"value": "family",
+												"children": null
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

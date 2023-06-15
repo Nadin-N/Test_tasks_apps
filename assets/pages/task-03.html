@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task 3</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body class="poll">
+		<header class="poll-header">
+			<div class="container">
+				<div class="poll-header-wrap">
+					<p class="poll-logo">NS</p>
+					<h1 class="poll-title">Poll App</h1>
+						<svg svg class="poll-header-icon" id="Layer_1" data-name="Layer 1"  viewBox="0 0 108.39 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>online-survey</title><path  d="M8.05,0h92.28a8.07,8.07,0,0,1,8.06,8.06V85.74a8.08,8.08,0,0,1-8.06,8.05H62.57v-.16c0-1.35,0-2.67-.06-4.88h38.86a2.22,2.22,0,0,0,2.22-2.23V19.46H5.12V86.52a2.1,2.1,0,0,0,.07.56A7.34,7.34,0,0,0,5,88.67a9.65,9.65,0,0,0,.86,4.17,5.15,5.15,0,0,0,.36.7l0,0A8.09,8.09,0,0,1,0,85.74V8.06A8.07,8.07,0,0,1,8.05,0ZM26.88,69.07a3.36,3.36,0,0,1,3.59,3.34V93.83h2.17V83.32c0-4.25,6.7-4.12,6.7.24v10.5l.1,0h2.35V85.68c0-4.25,6.7-4.12,6.7.23v7.76h2.36V87.76c0-4.25,6.7-4.12,6.7.23,0,4.9.28,10.68.1,15.57-.19,5.37-1.3,11.42-5.19,14.8a18.18,18.18,0,0,1-15,4.27c-9.22-1.46-11.55-7.11-15.94-14.07L10.37,90.9c-.69-1.61-.6-2.7.09-3.4,3-1.92,7.78,2.16,13.12,7.93l.19,0V72.18a3.12,3.12,0,0,1,3.11-3.11ZM17.28,40.3a3.53,3.53,0,0,1,5.86-3.92l1.91,2.1,5.61-7a3.52,3.52,0,0,1,5.44,4.48L27.62,46.15a3.77,3.77,0,0,1-.84.8,3.53,3.53,0,0,1-4.9-1l-4.6-5.68ZM88.13,68.57a3.7,3.7,0,0,0,0-7.39H49.51a3.7,3.7,0,1,0,0,7.39Zm0-26a3.7,3.7,0,0,0,0-7.39H49.51a3.7,3.7,0,1,0,0,7.39ZM17.64,54.63H36a2.51,2.51,0,0,1,2.51,2.51V72.61A2.52,2.52,0,0,1,36,75.12h-.53V72.41a8,8,0,0,0-2-5.37V59.65H20.15v8.1a8,8,0,0,0-1.34,4.43v2.94H17.64a2.52,2.52,0,0,1-2.51-2.51V57.14a2.51,2.51,0,0,1,2.51-2.51ZM92.66,7a4,4,0,1,1-4,4,4,4,0,0,1,4-4ZM65.71,7a4,4,0,1,1-4,4,4,4,0,0,1,4-4ZM79.19,7a4,4,0,1,1-4,4,4,4,0,0,1,4-4Z"/></svg>
+				</div>
+			</div>
+			<a href="../../index.html" class="back-link">
+			<svg class="back-icon" width="40" height="30" viewBox="0 0 32 32" >
+				<path class="cls-1" d="M22,29.73a1,1,0,0,1-.71-.29L9.93,18.12a3,3,0,0,1,0-4.24L21.24,2.56A1,1,0,1,1,22.66,4L11.34,15.29a1,1,0,0,0,0,1.42L22.66,28a1,1,0,0,1,0,1.42A1,1,0,0,1,22,29.73Z"/>
+				</svg>
+				<p class="back-text">Go back</p>
+			</a>
+		</header>
+		<main>
+			<div class="poll-action container">
+				<button class="poll-start-button">Start poll</button>
+				<div class="poll-box is-hidden"></div>
+				<div class="poll-result-box is-hidden"></div>
+				<button class="poll-restart-button is-hidden">Restart poll</button>
+			</div>
+		</main>
+		<footer class="poll-footer">
+			<ul class="poll-footer-list"><li class="convert-footer-item">&#169 2023</li>
+			<li class="poll-footer-item">All Rights Reserved</li>
+			<li class="poll-footer-item">
+				<a href="https://drive.google.com/file/d/1VHkmOyA7zpgcvC-JFiHLgZJRY7OhNLjZ/view?usp=share_link" target="_blank" rel="noopener noreferrer" >Developed by <span>Nadiia Severyn</span> </a>
+				</li></ul>
+		</footer>
+
+		<template data-name="question">
+			<div class="poll-list-item">
+				<p class="poll-list-question"></p>
+				<div class="poll-answer-buttons"></div>
+			</div>
+		</template>
+
+		<template data-name="answer">
+			<button type="button" class="poll-answer-button"></button>
+		</template>
+
+		<template data-name="report-list">
+			<p class="poll-result-title">Results:</p>
+			<ul class="poll-report"></ul>
+		</template>
+
+		<template data-name="report-item">
+			<li class="report-list-item">
+				<p class="report-list-question"></p>
+				<p class="report-list-answer"></p>
+			</li>
+		</template>
+
+		<script src="../js/task-03.js" type="module"></script>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+	font-family: Montserrat, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	background-color: rgb(255, 255, 255);
+}
+
+.container {
+	padding: 0 10px;
+	max-width: 100%;
+	@media (min-width: 480px) {
+		padding: 0 20px;
+	}
+	@media (min-width: 768px) {
+		max-width: 60%;
+		margin: 0 auto;
+		padding: 0;
+	}
+}
+
+.back-link {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	transition: color 0.3s ease;
+	& .back-icon {
+		fill: rgb(122, 114, 106);
+	}
+	& .back-text {
+		color: rgb(122, 114, 106);
+		font-weight: 700;
+		font-size: 14px;
+		@media (min-width: 768px) {
+			font-size: 24px;
+		}
+	}
+	&:is(:hover, :focus) .back-text {
+		color: rgb(221, 102, 0);
+	}
+	&:is(:hover, :focus) .back-icon {
+		fill: rgb(221, 102, 0);
+	}
+}

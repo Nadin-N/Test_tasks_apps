@@ -1,0 +1,13 @@
+[
+	{ "name": "Mike", "email": "mike@mail.com", "rating": 20, "disabled": false },
+	{ "name": "Greg", "email": "greg@mail.com", "rating": 14, "disabled": true },
+	{ "name": "Andrew", "email": "andrew@mail.com", "rating": 15, "disabled": false },
+	{ "name": "Lenny", "email": "lenny@mail.com", "rating": 15, "disabled": false },
+	{ "name": "Bill", "email": "bill@mail.com", "rating": 17, "disabled": false },
+	{ "name": "Sam", "email": "sam@mail.com", "rating": 20, "disabled": true },
+	{ "name": "Bob", "email": "bob@mail.com", "rating": 14, "disabled": false },
+	{ "name": "John", "email": "john@mail.com", "rating": 25, "disabled": false },
+	{ "name": "John", "email": "john1@mail.com", "rating": 26, "disabled": true },
+	{ "name": "John", "email": "john3@mail.com", "rating": 15, "disabled": false },
+	{ "name": "John", "email": "john2@mail.com", "rating": 27, "disabled": true }
+]

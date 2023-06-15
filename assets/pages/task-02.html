@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task 2</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@300;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body class="filter">
+		<header class="filter-header">
+			<div class="container">
+				<div class="filter-header-wrap">
+					<p class="filter-logo">NS</p>
+					<h1 class="filter-title">Table filter</h1>
+						<svg class="filter-header-icon"  version="1.1" id="Capa_1"
+			 				viewBox="0 0 301.219 301.219" >
+							<g>
+							<path d="M159.365,23.736v-10c0-5.523-4.477-10-10-10H10c-5.523,0-10,4.477-10,10v10c0,5.523,4.477,10,10,10h139.365
+								C154.888,33.736,159.365,29.259,159.365,23.736z"/>
+							<path d="M130.586,66.736H10c-5.523,0-10,4.477-10,10v10c0,5.523,4.477,10,10,10h120.586c5.523,0,10-4.477,10-10v-10
+								C140.586,71.213,136.109,66.736,130.586,66.736z"/>
+							<path d="M111.805,129.736H10c-5.523,0-10,4.477-10,10v10c0,5.523,4.477,10,10,10h101.805c5.523,0,10-4.477,10-10v-10
+								C121.805,134.213,117.328,129.736,111.805,129.736z"/>
+							<path d="M93.025,199.736H10c-5.523,0-10,4.477-10,10v10c0,5.523,4.477,10,10,10h83.025c5.522,0,10-4.477,10-10v-10
+								C103.025,204.213,98.548,199.736,93.025,199.736z"/>
+							<path d="M74.244,262.736H10c-5.523,0-10,4.477-10,10v10c0,5.523,4.477,10,10,10h64.244c5.522,0,10-4.477,10-10v-10
+								C84.244,267.213,79.767,262.736,74.244,262.736z"/>
+							<path d="M298.29,216.877l-7.071-7.071c-1.875-1.875-4.419-2.929-7.071-2.929c-2.652,0-5.196,1.054-7.072,2.929l-34.393,34.393
+								V18.736c0-5.523-4.477-10-10-10h-10c-5.523,0-10,4.477-10,10v225.462l-34.393-34.393c-1.876-1.875-4.419-2.929-7.071-2.929
+								c-2.652,0-5.196,1.054-7.071,2.929l-7.072,7.071c-3.904,3.905-3.904,10.237,0,14.142l63.536,63.536
+								c1.953,1.953,4.512,2.929,7.071,2.929c2.559,0,5.119-0.976,7.071-2.929l63.536-63.536
+								C302.195,227.113,302.195,220.781,298.29,216.877z"/>
+								</g>
+						</svg>
+				</div>
+			</div>
+			<a href="../../index.html" class="back-link">
+			<svg class="back-icon" width="40" height="30" viewBox="0 0 32 32" >
+				<path class="cls-1" d="M22,29.73a1,1,0,0,1-.71-.29L9.93,18.12a3,3,0,0,1,0-4.24L21.24,2.56A1,1,0,1,1,22.66,4L11.34,15.29a1,1,0,0,0,0,1.42L22.66,28a1,1,0,0,1,0,1.42A1,1,0,0,1,22,29.73Z"/>
+				</svg>
+				<p class="back-text">Go back</p>
+			</a>
+		</header>
+		<main>
+			<div class="filter-action container">
+				<div class="filter-wrap">
+					<button type="button" class="filter-button">
+						<span class="filter-button-text">Filter</span>
+						<svg class="filter-icon" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+    					<path d="M1672.853 0 1171.84 640H748.053L426.56 213.333h637.227L1241.173 0H0l746.667 991.147V1600l426.56 320V991.147L1920 0z" fill-rule="evenodd"/>
+						</svg>
+					</button>
+					<div class="filter-modal visually-hidden">
+						<form class="filter-form">
+							<div class="filter-item">
+								<p class="filter-action-name">Include</p>
+								<label for="filter-include-category" class="filter-select-name"> Category</label>
+								<select
+									name="filterIncludeCategorySelect"
+									id="filter-include-category"
+									class="form-category filter-select"
+								>
+									<option value="" selected></option>
+								</select>
+								<label for="filter-include-value" class="filter-select-name"> Value</label>
+								<select
+									name="filterIncludeValueSelect"
+									id="filter-include-value"
+									class="form-category filter-select"
+								>
+									<option value=""></option>
+								</select>
+							</div>
+							<div class="filter-item">
+								<p class="filter-action-name">Exclude</p>
+								<label for="filter-exclude-category" class="filter-select-name">Category</label>
+								<select
+									name="filterExcludeCategorySelect"
+									id="filter-exclude-category"
+									class="form-category filter-select"
+								>
+									<option value=""></option>
+								</select>
+								<label for="filter-exclude-value" class="filter-select-name">Value</label>
+								<select
+									name="filterExcludeValueSelect"
+									id="filter-exclude-value"
+									class="form-category filter-select"
+								>
+									<option value=""></option>
+								</select>
+							</div>
+							<div class="filter-item">
+								<p class="filter-action-name">Sort</p>
+								<label for="filter-sort" class="filter-select-name"> Category</label>
+								<select name="filterSortCategorySelect" id="filter-sort" class="form-category">
+									<option value=""></option>
+								</select>
+							</div>
+							<div class="filter-form-buttons">
+								<button type="submit" class="filter-submit-button">Apply</button>
+								<button type="button" class="filter-clear-button">Clear</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<table class="table-data">
+					<thead>
+						<tr class="table-header"></tr>
+					</thead>
+					<tbody class="table-body"></tbody>
+				</table>
+			</div>
+		</main>
+		<footer class="table-footer">
+			<ul class="table-footer-list"><li class="convert-footer-item">&#169 2023</li>
+			<li class="table-footer-item">All Rights Reserved</li>
+			<li class="table-footer-item">
+					<a href="https://drive.google.com/file/d/1VHkmOyA7zpgcvC-JFiHLgZJRY7OhNLjZ/view?usp=share_link" target="_blank" rel="noopener noreferrer" >Developed by <span>Nadiia Severyn</span> </a>
+				</li></ul>
+		</footer>
+		<script src="../js/task-02.js" type="module"></script>
+	</body>
+</html>

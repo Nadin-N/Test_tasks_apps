@@ -1,0 +1,100 @@
+[
+	{
+		"name": "millimeter",
+		"title": "Millimeter",
+		"shortcut": "mm",
+		"values": {
+			"millimeter": 1,
+			"centimeter": 0.1,
+			"meter": 0.001,
+			"kilometer": 0.000001,
+			"inch": 0.039370078740157,
+			"foot": 0.0032808398950131,
+			"yard": 0.0010936132983377
+		}
+	},
+	{
+		"name": "centimeter",
+		"title": "Centimeter",
+		"shortcut": "sm",
+		"values": {
+			"millimeter": 10,
+			"centimeter": 1,
+			"meter": 0.01,
+			"kilometer": 0.00001,
+			"inch": 0.39370078740157,
+			"foot": 0.032808398950131,
+			"yard": 0.010936132983377
+		}
+	},
+	{
+		"name": "meter",
+		"title": "Meter",
+		"shortcut": "m",
+		"values": {
+			"millimeter": 1000,
+			"centimeter": 100,
+			"meter": 1,
+			"kilometer": 0.001,
+			"inch": 39.370078740157,
+			"foot": 3.2808398950131,
+			"yard": 1.0936132983377
+		}
+	},
+	{
+		"name": "kilometer",
+		"title": "Kilometer",
+		"shortcut": "km",
+		"values": {
+			"millimeter": 1000000,
+			"centimeter": 100000,
+			"meter": 1000,
+			"kilometer": 1,
+			"inch": 39370.078740157,
+			"foot": 3280.8398950131,
+			"yard": 1093.6132983377
+		}
+	},
+	{
+		"name": "inch",
+		"title": "Inch",
+		"shortcut": "in",
+		"values": {
+			"millimeter": 25.4,
+			"centimeter": 2.54,
+			"meter": 0.0254,
+			"kilometer": 0.0000254,
+			"inch": 1,
+			"foot": 0.083333333333333,
+			"yard": 0.027777777777778
+		}
+	},
+	{
+		"name": "foot",
+		"title": "Foot",
+		"shortcut": "ft",
+		"values": {
+			"millimeter": 304.8,
+			"centimeter": 30.48,
+			"kilometer": 0.0003048,
+			"meter": 0.3048,
+			"inch": 12,
+			"foot": 1,
+			"yard": 0.33333333333333
+		}
+	},
+	{
+		"name": "yard",
+		"title": "Yard",
+		"shortcut": "yd",
+		"values": {
+			"millimeter": 914.4,
+			"centimeter": 91.44,
+			"kilometer": 0.0009144,
+			"meter": 0.9144,
+			"inch": 36,
+			"foot": 3,
+			"yard": 1
+		}
+	}
+]
