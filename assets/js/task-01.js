@@ -1,5 +1,4 @@
-console.log("hello!");
-
+"use strict";
 class DistanceConverter {
 	constructor() {
 		this.convertFormEl = document.querySelector(".convert-form");

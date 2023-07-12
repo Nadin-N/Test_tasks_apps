@@ -1,3 +1,5 @@
+"use strict";
+
 class App {
 	static CLOSE_FILTER_BTN_CODE = "Escape";
 	static CLOSE_FILTER_CLASS = "visually-hidden";
